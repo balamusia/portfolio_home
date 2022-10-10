@@ -70,7 +70,7 @@ grid-row-gap: 5px;
     
     background-color: red;
     border-radius: 50%;
-    border: solid black;
+    border: solid white;
     border-width: 5px;
     width: 20vw;
     height: 20vw;
@@ -78,6 +78,7 @@ grid-row-gap: 5px;
     background-image: url("https://i.imgur.com/6X6gSSm.png");
     background-size: cover;
     transition: all 0.3s;
+    box-shadow: 0px 0px 0px blue;
     
   }
   
@@ -85,7 +86,25 @@ grid-row-gap: 5px;
     
     transition: all 0.3s;
     border-width: 10px;
+    font-size: 25;
+    box-shadow: 0px 0px 10px blue;
     
+  }
+  
+  .twoD p{
+    text-align: center;
+    padding: 5%;
+    margin-top: 37%;
+    font-size: 18;
+    transition: all 0.3s;
+    color: white;
+    text-shadow: 0px 0px 10px blue;
+  }
+  
+  .twoD p:hover{
+    font-size: 25;
+    transition: all 0.3s;
+    text-shadow: 5px 5px 0px blue;
   }
 
 
@@ -107,7 +126,9 @@ grid-row-gap: 5px;
     <div class="div2">
       
       <div class="twoD">
-        hello hello hello
+        <p>
+          2D works
+        </p>
       </div>
       
     </div>
