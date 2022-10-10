@@ -66,7 +66,7 @@ grid-row-gap: 5px;
   } 
   
   
-  .twoD{
+  .circle{
     
     background-color: red;
     border-radius: 50%;
@@ -75,14 +75,13 @@ grid-row-gap: 5px;
     width: 20vw;
     height: 20vw;
     margin: 20px;
-    background-image: url("https://i.imgur.com/6X6gSSm.png");
     background-size: cover;
     transition: all 0.3s;
     box-shadow: 0px 0px 0px blue;
     
   }
   
-  .twoD:hover{
+  .circle:hover{
     
     transition: all 0.3s;
     border-width: 10px;
@@ -91,7 +90,7 @@ grid-row-gap: 5px;
     
   }
   
-  .twoD p{
+  .circle p{
     text-align: center;
     padding: 5%;
     margin-top: 37%;
@@ -101,11 +100,20 @@ grid-row-gap: 5px;
     text-shadow: 0px 0px 10px blue;
   }
   
-  .twoD p:hover{
+  .circle p:hover{
     font-size: 25;
     transition: all 0.3s;
     text-shadow: 5px 5px 0px blue;
   }
+  
+  .twoD{
+    background-image: url("https://i.imgur.com/6X6gSSm.png");
+  }
+  
+  .videos{
+    background-image: url("https://i.imgur.com/T8KjjCv.png");
+  }
+  
 
 
 </style>
@@ -125,7 +133,7 @@ grid-row-gap: 5px;
     
     <div class="div2">
       
-      <div class="twoD">
+      <div class="circle twoD">
         <p>
           2D works
         </p>
@@ -134,6 +142,11 @@ grid-row-gap: 5px;
     </div>
     
     <div class="div3">
+      <div class="circle videos">
+        <p>
+          videos
+        </p>
+      </div>
       
     </div>
     
